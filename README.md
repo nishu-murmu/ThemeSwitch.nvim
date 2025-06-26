@@ -11,7 +11,7 @@ https://github.com/user-attachments/assets/c8ff7963-d2d3-4a30-bcaa-00d540426957
 
 ```lua
 return {
-    'nishu-murmu/theme-switch'
+    "nishu-murmu/ThemeSwitch.nvim"
 }
 ```
 
