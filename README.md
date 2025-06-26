@@ -1,11 +1,11 @@
-## ThemeSwitch
+# ThemeSwitch
 Light weight color scheme switcher for neovim.
 
 
-### Demo
+## Demo
 https://github.com/user-attachments/assets/c8ff7963-d2d3-4a30-bcaa-00d540426957
 
-### Installation
+## Installation
 
 ##### [Lazy.nvim](https://github.com/folke/lazy.nvim)
 
@@ -14,12 +14,26 @@ return {
     "nishu-murmu/ThemeSwitch.nvim"
 }
 ```
+### Usage
 
-#### Usage
-
+#### Basic Usage
 ```lua
-require('theme-switch').setup {}
+require("ThemeSwitch")
 ```
 
-#### License
+#### Update mappings
+```lua
+require("ThemeSwitch").setup({
+    keymap = --your mappings
+})
+```
+
+### Default Mappings
+Mappings are fully customizable.
+
+| Mappings       | Action                                                    |
+| -------------- | --------------------------------------------------------- |
+| `<leader>c`    | Toggle ThemeSwitch window                                 |
+
+### License
 MIT
